@@ -38,7 +38,7 @@ const PlayerContextProvider = (props) => {
                     }
                 })
             }
-        }, timeout);
+        }, 1000);
     },[audioRef])
 
     const contextValue = {
